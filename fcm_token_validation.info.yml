@@ -1,0 +1,9 @@
+name: Firebase Cloud Messaging Token Validation
+type: module
+description: 'Provides a service to validate FCM tokens send by devices to our backend.'
+package: Firebase
+
+dependencies:
+  - drupal:firebase
+  - drupal:system (>=8.3.0)
+core: '8.x'
